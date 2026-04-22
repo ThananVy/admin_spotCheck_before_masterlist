@@ -1,0 +1,69 @@
+# 🚀 START HERE - 2 Steps Only!
+
+## ⚡ FIRST TIME (Do Once)
+
+### Step 1: Run Setup
+**Double-click:** `setup_first_time.bat`
+
+Wait 2-3 minutes. It will install everything needed.
+
+---
+
+## 📅 EVERY DAY (After Setup)
+
+### Step 1: Add Your Files
+Put these 2 files in the **Source** folder:
+- `Master_Data.xlsx`
+- `New_Data.xlsx`
+
+### Step 2: Run
+**Double-click:** `run_daily.bat`
+
+Wait 10 seconds. Done!
+
+---
+
+## 📊 Check Results
+
+Open **Results** folder → Open the newest Excel file
+
+**Important sheets:**
+- **Summary** - Overview (start here)
+- **Flagged_Duplicates** - Need your review
+- **Convert_to_Code_P** - Auto-approved (already merged!)
+
+---
+
+## ❓ Problems?
+
+### "UV not found"
+→ Run `setup_first_time.bat` first
+
+### "Files not found"
+→ Put Excel files in **Source** folder (not main folder)
+
+### "Still not working"
+→ Run `setup_first_time.bat` again
+
+---
+
+## 📂 Folder Structure
+
+```
+DuplicateChecker/
+├── Source/           ← PUT YOUR FILES HERE
+│   ├── Master_Data.xlsx
+│   └── New_Data.xlsx
+├── Results/          ← YOUR OUTPUT HERE
+├── setup_first_time.bat  ← RUN ONCE
+└── run_daily.bat     ← RUN DAILY
+```
+
+---
+
+## ✅ That's It!
+
+**First time:** Double-click `setup_first_time.bat`
+**Every day:** Double-click `run_daily.bat`
+
+Super simple! 🎉
